@@ -64,7 +64,9 @@ public class Server extends WebSocketServer {
         if (connections.size() == 0) {
             finishGame(false);
         }
-        
+        else if(!playing){
+            broadcast("Número de jogadores conectados no momento: "+connections.size());        
+        }
     }
 
     //Recebe mensagens do client e executa intruções relativas a mensagens recebidas
