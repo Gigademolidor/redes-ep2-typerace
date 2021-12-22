@@ -23,9 +23,14 @@ Para rodar um cliente
 ```
 
 Ao rodar o servidor, ele esperará clientes se conectarem, e que algum cliente mande um comando para iniciar;
+
 Ao rodar os clientes, eles serão informados da quantidade de jogadores (sempre que um novo entrar) e terão a possibilidade de iniciar a partida, digitando "iniciar" e teclando Enter;
+
 O cliente pode digitar "sair" a qualquer momento para encerrar sua conexão com o servidor;
+
 Ao iniciar a partida, o servidor envia a lista de palavras, e os clientes recebem; o cliente que finalizar o envio de todas as palavras corretamente ganha a partida;
+
 Os critérios de desempate em caso de número de acertos iguais são: quem tiver menor número de erros fica na frente, e caso eles sejam iguais também, quem tiver mandado a última palavra primeiro fica na frente.
+
 Quando a partida finalizar, todos os clientes recebem a classificação, com a quantidade de acertos, erros e a duração da partida;
 
